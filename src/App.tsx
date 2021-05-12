@@ -25,7 +25,7 @@ function App() {
         <button type="button" onClick={handleAddItem}>Add</button>
       </div>
       <div>
-        {todos.map((item, index) => <span key={index}>{item.title}</span>)}
+        {todos.map((item, index) => <div key={index}>{item.title}</div>)}
       </div>
     </div>
   );
